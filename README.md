@@ -77,10 +77,6 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshot
-
-(Add a screenshot of your application here.)
-
 ---
 
 ## 🔮 Future Enhancements
