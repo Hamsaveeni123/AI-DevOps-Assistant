@@ -6,8 +6,7 @@ An AI-powered DevOps Assistant built with **Python** and **Streamlit**. This app
 
 ## 🚀 Live Demo
 
-🌐 https://ai-devops-assistant-r8ndl5wxjkxhcveg7qimnu.streamlit.app/
-
+🌐 https://ai-devops-assistant-r8ndl5wxjkxhcveg7qjmnu.streamlit.app/
 ---
 
 ## ✨ Features
