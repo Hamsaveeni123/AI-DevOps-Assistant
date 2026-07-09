@@ -24,30 +24,4 @@ def stop_container(name):
         capture_output=True,
         text=True
     )
-    return result.stdout if result.stdout else result.stderrimport subprocess
-
-def list_containers():
-    result = subprocess.run(
-        ["docker", "ps", "-a"],
-        capture_output=True,
-        text=True
-    )
-    return result.stdout
-
-
-def start_nginx():
-    result = subprocess.run(
-        ["docker", "run", "-d", "--name", "my-nginx", "-p", "8080:80", "nginx"],
-        capture_output=True,
-        text=True
-    )
-    return result.stdout if result.stdout else result.stderr
-
-
-def stop_container(name):
-    result = subprocess.run(
-        ["docker", "stop", name],
-        capture_output=True,
-        text=True
-    )
     return result.stdout if result.stdout else result.stderr
